@@ -1,6 +1,6 @@
 # Styled Blog Website
 
-## Project Consists of Two Pages
+## Project Consists of Three Pages
 
 1. **Blog Page**
 ![Blog Page](/Screenshots/Blog.PNG)
