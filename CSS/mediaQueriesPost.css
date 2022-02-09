@@ -1,0 +1,155 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 15px;
+    height: 15px;
+  }
+
+  #imgs-container {
+    margin: 15px 2px 0 0;
+  }
+
+  #atr-img {
+    width: 305px;
+  }
+
+  #author-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  #copyright {
+    margin: 15px 0 0 5px;
+    font-size: 14px;
+  }
+  #author-p {
+    font-size: 13px;
+  }
+  #artHeadSec4 {
+    margin-top: 8px;
+  }
+  #myP {
+    margin-top: 8px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .img {
+    width: 40px;
+    height: 40px;
+  }
+  #imgs-container {
+    margin: 5px 5px 0 0;
+  }
+
+  #author-img {
+    width: 180px;
+    height: 180px;
+  }
+
+  #atr-img {
+    width: 555px;
+  }
+
+  #author-p {
+    font-size: 21px;
+  }
+  #second-p {
+    margin-bottom: 0px;
+  }
+  ul {
+    margin-top: 1px;
+  }
+  ol li {
+    font-size: 28px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .img {
+    width: 40px;
+    height: 40px;
+  }
+
+  #imgs-container {
+    margin: 5px 5px 0 0;
+  }
+
+  #atr-img {
+    width: 100%;
+  }
+
+  #author-p {
+    font-size: 24px;
+  }
+  #second-p {
+    margin-bottom: 0px;
+  }
+  ul {
+    margin-top: 1px;
+  }
+  ol li {
+    font-size: 28px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .img {
+    width: 40px;
+    height: 40px;
+  }
+  #imgs-container {
+    margin: 5px 5px 0 0;
+  }
+  #atr-img {
+    width: 100%;
+  }
+
+  #author-p {
+    font-size: 20px;
+  }
+  #second-p {
+    margin-bottom: 0px;
+  }
+  ul {
+    margin-top: 1px;
+  }
+  ol li {
+    font-size: 28px;
+  }
+  #myP {
+    font-size: 25px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .img {
+    width: 40px;
+    height: 40px;
+  }
+  #imgs-container {
+    margin: 5px 5px 0 0;
+  }
+  #atr-img {
+    width: 100%;
+  }
+  #author-p {
+    font-size: 35px;
+  }
+  #second-p {
+    margin-bottom: 0px;
+  }
+  ul {
+    margin-top: 1px;
+  }
+  ol li {
+    font-size: 28px;
+  }
+  #author-name {
+    font-size: 28px;
+  }
+}

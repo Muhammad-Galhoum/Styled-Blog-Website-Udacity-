@@ -1,0 +1,19 @@
+#copyright {
+  margin: 15px 0 0 5px;
+}
+
+#imgs-container {
+  margin: 15px 5px 0 0;
+  padding: 5px;
+}
+
+.img {
+  width: 15px;
+  height: 15px;
+}
+
+#footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}

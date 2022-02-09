@@ -1,0 +1,78 @@
+@import url("header.css");
+@import url("footer.css");
+@import url("media-queries.css");
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 70px 1fr 1fr 1fr 60px;
+  grid-gap: 10px;
+  grid-template-areas:
+    "hd hd hd hd "
+    "main1 main1 main2 main2"
+    "main3 main3 main4 main4"
+    "main5 main5 main6 main6"
+    "ft ft ft ft";
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.box {
+  border: 2px groove rgb(206, 181, 181);
+}
+
+header {
+  grid-area: hd;
+}
+
+#sec1 {
+  grid-area: main1;
+}
+#sec2 {
+  grid-area: main2;
+}
+#sec3 {
+  grid-area: main3;
+}
+#sec4 {
+  grid-area: main4;
+}
+#sec5 {
+  grid-area: main5;
+}
+#sec6 {
+  grid-area: main6;
+}
+
+#footer {
+  grid-area: ft;
+}
+
+article {
+  padding: 10px;
+}
+
+.world {
+  color: blue;
+  display: inline-block;
+}
+
+.design {
+  color: green;
+}
+
+.position {
+  display: block;
+  position: relative;
+}
+
+h2 {
+  color: brown;
+}
+
+.sigmund-img {
+  width: 50px;
+  height: 50px;
+  float: right;
+  border-radius: 100px;
+}

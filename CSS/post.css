@@ -1,0 +1,114 @@
+@import url("footer.css");
+@import url("media-queries.css");
+@import url("mediaQueriesPost.css");
+#post-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 70px 180px 1fr 180px 200px 60px;
+  grid-gap: 10px;
+  grid-template-areas:
+    "hd hd hd hd "
+    "main1 main1 main1 main1"
+    "main2 main2 main2 main2"
+    "main3 main3 main3 main3"
+    "main4 main4 main4 main4"
+    "ft ft ft ft";
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+#post-container {
+  padding-left: 5px;
+}
+
+#post-header {
+  grid-area: hd;
+}
+
+#author-intro {
+  grid-area: main1;
+}
+
+#intro {
+  grid-area: main2;
+}
+
+#detail-one {
+  grid-area: main3;
+}
+
+#detail-two {
+  grid-area: main4;
+}
+
+#footer {
+  grid-area: ft;
+}
+
+/* Style for post header */
+#main {
+  text-decoration: none;
+  color: lightgreen;
+  display: block;
+  margin-top: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+  color: brown;
+}
+
+/* Style for first Section */
+#author-img {
+  float: left;
+  border-radius: 100px;
+  width: 130px;
+  height: 130px;
+}
+
+span {
+  display: block;
+  margin-top: 10px;
+}
+
+#author-p {
+  margin-top: 10px;
+}
+
+/* Style for second Section */
+figure {
+  margin-left: 0;
+}
+
+figcaption {
+  margin-bottom: 15px;
+}
+
+/* Style for fourth Section */
+ul li {
+  list-style: circle;
+  color: blue;
+}
+
+ol li {
+  color: aqua;
+}
+
+/* Style for Author name */
+#author-name {
+  color: rgb(252, 56, 56);
+}
+
+/* Color for styling quote */
+q {
+  color: blueviolet;
+}
+
+#artHeadSec4 {
+  margin-top: 8px;
+}
+
+#myP {
+  margin-top: 8px;
+}
