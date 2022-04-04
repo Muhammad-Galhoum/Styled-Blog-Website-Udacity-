@@ -12,4 +12,4 @@
 3. **Subscribe Form**
 ![Subscribe Form](/Screenshots/Subscribe_Form.PNG)
 
-&copy; [Muhammad Galhoum](https://github.com/Muhammad-Galhoum "Muhammad Galhoum")
+&copy; [Muhammad Galhoum](https://github.com/muhammadgalhoum "Muhammad Galhoum")
